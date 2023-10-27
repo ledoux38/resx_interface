@@ -1,0 +1,7 @@
+{
+    "translation_files": {
+        "en": "/path/to/en.xml",
+        "de": "/path/to/de.xml",
+        "fr": "/path/to/fr.xml"
+    }
+}

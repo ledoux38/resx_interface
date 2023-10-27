@@ -1,6 +1,7 @@
 import tkinter as tk
-from tkinter import scrolledtext
 import xml.etree.ElementTree as ET
+
+from config_handler import load_config
 from ui import create_ui
 
 
@@ -20,6 +21,11 @@ def on_submit():
     data_blocks = {
         'en': en_text.get("1.0", 'end-1c'),
         'de': de_text.get("1.0", 'end-1c'),
+        'fr': fr_text.get("1.0", 'end-1c'),
+        'it': it_text.get("1.0", 'end-1c'),
+        'pt': pt_text.get("1.0", 'end-1c'),
+        'ja': ja_text.get("1.0", 'end-1c'),
+        'nl': nl_text.get("1.0", 'end-1c'),
         # ... autres langues
     }
 
@@ -28,6 +34,16 @@ def on_submit():
 
 
 if __name__ == "__main__":
+    # Charger la configuration au démarrage de l'application
+    config = load_config()
+
+    if config is None:
+        print("Erreur de configuration. Arrêt du programme.")
+        exit(1)  # Exit the program with an error code
+
+    # Utiliser la configuration dans votre application
+    translation_files = config['translation_files']
+
     window = tk.Tk()
-    en_text, de_text, submit_button = create_ui(window)
+    en_text, de_text, fr_text, it_text, pt_text, ja_text, nl_text, submit_button = create_ui(window)
     window.mainloop()
