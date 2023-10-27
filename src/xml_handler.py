@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 
+
 def read_xml(file_path):
     """
     Lit un fichier XML et renvoie l'objet racine.
@@ -11,6 +12,7 @@ def read_xml(file_path):
     except Exception as e:
         print(f'Erreur lors de la lecture du fichier {file_path}: {e}')
         return None
+
 
 def append_data(file_path, data_block):
     """
@@ -24,6 +26,7 @@ def append_data(file_path, data_block):
         tree.write(file_path)
     except Exception as e:
         print(f'Erreur lors de l''écriture dans le fichier {file_path}: {e}')
+
 
 def extract_data(element):
     """

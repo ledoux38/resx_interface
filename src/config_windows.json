@@ -1,7 +1,11 @@
 {
     "translation_files": {
-        "en": "C:\\path\\to\\en.xml",
-        "de": "C:\\path\\to\\de.xml",
-        "fr": "C:\\path\\to\\fr.xml"
+        "en": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.en.resx",
+        "de": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.de.resx",
+        "fr": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.fr.resx",
+        "pt": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.pt.resx",
+        "nl": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.nl.resx",
+        "ja": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.ja.resx",
+        "it": "C:\\Users\\hermelen\\workspace\\synergee\\retaildrive\\back\\RetailbookResx\\Redesign\\Global.it.resx"
     }
 }

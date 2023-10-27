@@ -1,7 +1,11 @@
 {
-    "translation_files": {
-        "en": "/path/to/en.xml",
-        "de": "/path/to/de.xml",
-        "fr": "/path/to/fr.xml"
-    }
+  "translation_files": {
+    "en": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.en.resx",
+    "de": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.de.resx",
+    "fr": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.fr.resx",
+    "it": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.it.resx",
+    "pt": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.pt.resx",
+    "nl": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.nl.resx",
+    "ja": "/home/ledoux/workspace/synergee/retaildrive/back/RetailbookResx/Redesign/Global.ja.resx"
+  }
 }
